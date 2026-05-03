@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  font-family: Arial;
+}
+ #board {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      grid-gap: 5px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .cell {
+      width: 100px;
+      height: 100px;
+      font-size: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #6cd0c1;
+      cursor: pointer;
+    }
+.cell:hover {
+      background: #ddd;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+    }
